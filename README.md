@@ -1,1 +1,609 @@
-# Victory.-Ng.com
+
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe By Victory | Premium Nigerian Luxury Fashion</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#FCFCFA',
+                            cream: '#F8F5EE',
+                            beige: '#EFECE6',
+                            gold: '#D4AF37',
+                            goldHover: '#AA8A2E',
+                            dark: '#1C1917',
+                            muted: '#78716C'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #FCFCFA;
+            color: #1C1917;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 175, 55, 0.15);
+        }
+        .luxury-shadow {
+            box-shadow: 0 10px 30px -10px rgba(28, 25, 23, 0.05);
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #1C1917 0%, #D4AF37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-gold selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-cream border-b border-brand-gold/20 text-xs tracking-widest text-brand-dark py-2 px-4 text-center uppercase font-medium">
+        Exclusive Luxury Collections • Worldwide Delivery Available
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-40 bg-brand-bg/90 backdrop-blur-md border-b border-brand-beige transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="#" class="text-2xl md:text-3xl font-serif font-bold tracking-wider text-brand-dark uppercase">
+                Luxe <span class="text-brand-gold font-light">By Victory</span>
+            </a>
+            
+            <nav class="hidden md:flex space-x-8 text-sm uppercase tracking-widest text-brand-muted font-medium">
+                <a href="#collections" class="hover:text-brand-gold transition-colors">Collections</a>
+                <a href="#categories" class="hover:text-brand-gold transition-colors">Categories</a>
+                <a href="#arrivals" class="hover:text-brand-gold transition-colors">New Arrivals</a>
+                <a href="#bestsellers" class="hover:text-brand-gold transition-colors">Best Sellers</a>
+                <a href="#visit" class="hover:text-brand-gold transition-colors">Store Location</a>
+            </nav>
+
+            <div class="flex items-center space-x-5">
+                <a href="https://instagram.com/vickyluxurycollectnz" target="_blank" class="text-brand-dark hover:text-brand-gold transition-colors text-lg" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/2340000000000" target="_blank" class="text-brand-dark hover:text-brand-gold transition-colors text-lg" title="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[85vh] bg-brand-cream flex items-center border-b border-brand-beige overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="space-y-6 text-left">
+                <span class="inline-block text-xs uppercase tracking-[0.3em] font-bold text-brand-gold px-3 py-1 bg-white border border-brand-gold/30 rounded-full">
+                    Official Brand Collection
+                </span>
+                <h1 class="text-4xl md:text-6xl font-serif text-brand-dark font-medium leading-tight">
+                    Elegance Redefined <br>
+                    <span class="italic font-normal">For the Modern Aesthetic</span>
+                </h1>
+                <p class="text-brand-muted text-base md:text-lg max-w-lg font-light leading-relaxed">
+                    Discover bespoke luxury bags, curated footwear, premium fashion accessories, and exclusive children's apparel at Luxe By Victory.
+                </p>
+                <div class="pt-4 flex flex-wrap gap-4">
+                    <a href="#collections" class="px-8 py-4 bg-brand-dark text-white text-xs uppercase tracking-widest rounded-full hover:bg-brand-gold transition-all duration-300 shadow-lg">
+                        Explore Collection
+                    </a>
+                    <a href="#visit" class="px-8 py-4 border border-brand-dark text-brand-dark text-xs uppercase tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition-all duration-300">
+                        Visit Boutique
+                    </a>
+                </div>
+            </div>
+            
+            <div class="relative">
+                <div class="w-full h-[450px] md:h-[550px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white relative group">
+                    <img src="https://i.ibb.co/HsQxLCC/luxury-women-marc-jacobs-used-handbags-p1397630-001.jpg" alt="Luxe By Victory Hero Image" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/40 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 right-6 p-6 glass-card rounded-xl text-brand-dark">
+                        <p class="text-xs tracking-widest uppercase text-brand-gold font-bold">Featured Spotlight</p>
+                        <h3 class="font-serif text-xl font-semibold">Designer Handbag Series</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-20 max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-xl mx-auto mb-16 space-y-2">
+            <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Curated Catalog</span>
+            <h2 class="text-3xl font-serif text-brand-dark">Explore Categories</h2>
+            <div class="w-12 h-0.5 bg-brand-gold mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Category 1 -->
+            <div class="group relative rounded-2xl overflow-hidden bg-brand-cream border border-brand-beige h-72 flex flex-col justify-end p-6 cursor-pointer hover:shadow-xl transition-all">
+                <img src="https://i.ibb.co/4RDzby93/36631127-69847269-1000.jpg" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90" alt="Luxury Bags">
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-brand-dark/20 to-transparent"></div>
+                <div class="relative z-10 text-white">
+                    <h3 class="font-serif text-xl font-medium">Luxury Bags</h3>
+                    <p class="text-xs text-brand-cream/80 tracking-widest uppercase mt-1">Exclusive Imports</p>
+                </div>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="group relative rounded-2xl overflow-hidden bg-brand-cream border border-brand-beige h-72 flex flex-col justify-end p-6 cursor-pointer hover:shadow-xl transition-all">
+                <img src="https://i.ibb.co/nMCst7Gw/BALANCE-574-SP-ORT-NIMBUS-CLO-UD-SNEAKERS-MULTICOLOUR-5-SHOPPING-W-EBSITE-NIGERIA-jpg-1-1080x1440.jpg" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90" alt="Shoes">
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-brand-dark/20 to-transparent"></div>
+                <div class="relative z-10 text-white">
+                    <h3 class="font-serif text-xl font-medium">Footwear</h3>
+                    <p class="text-xs text-brand-cream/80 tracking-widest uppercase mt-1">Premium Shoes</p>
+                </div>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="group relative rounded-2xl overflow-hidden bg-brand-cream border border-brand-beige h-72 flex flex-col justify-end p-6 cursor-pointer hover:shadow-xl transition-all">
+                <img src="https://i.ibb.co/sxv3YLQ/b67ea27-SKEAA00067025-5.jpg" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90" alt="Accessories">
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-brand-dark/20 to-transparent"></div>
+                <div class="relative z-10 text-white">
+                    <h3 class="font-serif text-xl font-medium">Accessories</h3>
+                    <p class="text-xs text-brand-cream/80 tracking-widest uppercase mt-1">Statement Pieces</p>
+                </div>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="group relative rounded-2xl overflow-hidden bg-brand-cream border border-brand-beige h-72 flex flex-col justify-end p-6 cursor-pointer hover:shadow-xl transition-all">
+                <img src="https://i.ibb.co/ymBFJ7sP/s-l1600-14d19363-ec83-4334-b45d-35246edbf870-1000x.jpg" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90" alt="Children's Clothes">
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-brand-dark/20 to-transparent"></div>
+                <div class="relative z-10 text-white">
+                    <h3 class="font-serif text-xl font-medium">Children's Wear</h3>
+                    <p class="text-xs text-brand-cream/80 tracking-widest uppercase mt-1">Luxury Apparel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products / Catalog Grid -->
+    <section id="collections" class="py-20 bg-brand-cream border-y border-brand-beige">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Selected Works</span>
+                    <h2 class="text-3xl font-serif text-brand-dark mt-1">Featured Collections</h2>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <span class="text-xs tracking-widest text-brand-muted uppercase">Showing Latest Items</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="productGrid">
+                <!-- Products will be generated dynamically or rendered directly -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Nigerian Testimonials Section -->
+    <section class="py-20 max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-xl mx-auto mb-16 space-y-2">
+            <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Client Feedback</span>
+            <h2 class="text-3xl font-serif text-brand-dark">Nigerian Client Testimonials</h2>
+            <div class="w-12 h-0.5 bg-brand-gold mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-brand-cream p-8 rounded-2xl border border-brand-beige space-y-4">
+                <div class="text-brand-gold text-sm">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-brand-dark/80 text-sm leading-relaxed italic">
+                    "The quality of the Marc Jacobs bag I ordered from Luxe By Victory was exceptional. Delivery to Maitama, Abuja was fast and hassle-free."
+                </p>
+                <div class="pt-2 border-t border-brand-beige/80">
+                    <p class="font-serif text-sm font-semibold text-brand-dark">Amina Bello</p>
+                    <p class="text-xs text-brand-muted">Abuja, Nigeria</p>
+                </div>
+            </div>
+
+            <div class="bg-brand-cream p-8 rounded-2xl border border-brand-beige space-y-4">
+                <div class="text-brand-gold text-sm">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-brand-dark/80 text-sm leading-relaxed italic">
+                    "Ordered sneakers for my husband and children's outfits for my daughter. Everything fits perfectly. Top tier boutique experience!"
+                </p>
+                <div class="pt-2 border-t border-brand-beige/80">
+                    <p class="font-serif text-sm font-semibold text-brand-dark">Nkechi Okonkwo</p>
+                    <p class="text-xs text-brand-muted">Lagos, Nigeria</p>
+                </div>
+            </div>
+
+            <div class="bg-brand-cream p-8 rounded-2xl border border-brand-beige space-y-4">
+                <div class="text-brand-gold text-sm">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-brand-dark/80 text-sm leading-relaxed italic">
+                    "Visited their physical shop at Kubwa Village Market after browsing Instagram. Genuine products and excellent customer relationship."
+                </p>
+                <div class="pt-2 border-t border-brand-beige/80">
+                    <p class="font-serif text-sm font-semibold text-brand-dark">Funmi Adebayo</p>
+                    <p class="text-xs text-brand-muted">Abuja, Nigeria</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Location & Contact Section -->
+    <section id="visit" class="py-20 bg-brand-cream border-t border-brand-beige">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="text-xs uppercase tracking-[0.2em] text-brand-gold font-bold">Physical Boutique</span>
+                <h2 class="text-3xl md:text-4xl font-serif text-brand-dark">Visit Our Store</h2>
+                <p class="text-brand-muted text-sm leading-relaxed">
+                    Experience our luxury items in person. Visit our physical store location in Abuja or connect with us directly via social channels.
+                </p>
+
+                <div class="space-y-4 pt-4">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-10 h-10 rounded-full bg-white border border-brand-gold/30 flex items-center justify-center text-brand-gold shrink-0">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-serif text-sm font-semibold text-brand-dark">Store Location</h4>
+                            <p class="text-sm text-brand-muted">Shop FF10, Block C5, Kubwa Village Market, Abuja, Nigeria</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="w-10 h-10 rounded-full bg-white border border-brand-gold/30 flex items-center justify-center text-brand-gold shrink-0">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-serif text-sm font-semibold text-brand-dark">Instagram</h4>
+                            <p class="text-sm text-brand-muted">@vickyluxurycollectnz</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="w-10 h-10 rounded-full bg-white border border-brand-gold/30 flex items-center justify-center text-brand-gold shrink-0">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-serif text-sm font-semibold text-brand-dark">WhatsApp Direct</h4>
+                            <p class="text-sm text-brand-muted">Available 24/7 for order inquiries</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-4 flex space-x-4">
+                    <a href="https://wa.me/2340000000000" target="_blank" class="px-6 py-3 bg-green-600 text-white rounded-full text-xs tracking-widest uppercase font-medium hover:bg-green-700 transition flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Contact on WhatsApp
+                    </a>
+                    <a href="https://instagram.com/vickyluxurycollectnz" target="_blank" class="px-6 py-3 bg-brand-dark text-white rounded-full text-xs tracking-widest uppercase font-medium hover:bg-brand-gold transition flex items-center gap-2">
+                        <i class="fa-brands fa-instagram text-lg"></i> Follow Instagram
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-brand-beige luxury-shadow space-y-6">
+                <h3 class="font-serif text-xl font-semibold text-brand-dark">Send Direct Message</h3>
+                <form onsubmit="event.preventDefault(); alert('Thank you. Your message has been sent to Luxe By Victory.');" class="space-y-4">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-muted mb-1">Your Name</label>
+                        <input type="text" required class="w-full px-4 py-3 rounded-lg bg-brand-bg border border-brand-beige focus:outline-none focus:border-brand-gold text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-muted mb-1">Phone Number</label>
+                        <input type="tel" required class="w-full px-4 py-3 rounded-lg bg-brand-bg border border-brand-beige focus:outline-none focus:border-brand-gold text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-muted mb-1">Inquiry / Request</label>
+                        <textarea rows="3" required class="w-full px-4 py-3 rounded-lg bg-brand-bg border border-brand-beige focus:outline-none focus:border-brand-gold text-sm"></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-3 bg-brand-gold text-white rounded-lg text-xs tracking-widest uppercase font-semibold hover:bg-brand-goldHover transition">
+                        Submit Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-bg border-t border-brand-beige py-12 text-center text-xs text-brand-muted">
+        <div class="max-w-7xl mx-auto px-6 space-y-4">
+            <p class="font-serif text-base text-brand-dark font-bold uppercase tracking-widest">Luxe By Victory</p>
+            <p>Shop FF10, Block C5, Kubwa Village Market, Abuja, Nigeria</p>
+            <p>© 2026 Luxe By Victory. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- PRODUCT DETAIL & CHECKOUT MODAL -->
+    <div id="productModal" class="fixed inset-0 z-50 hidden bg-brand-dark/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+        <div class="bg-white max-w-3xl w-full rounded-2xl overflow-hidden shadow-2xl border border-brand-gold/20 my-8 relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-brand-cream text-brand-dark hover:bg-brand-gold hover:text-white transition flex items-center justify-center">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <!-- STEP 1: Product View & Customer Details -->
+            <div id="step1" class="p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <div class="h-80 w-full rounded-xl overflow-hidden bg-brand-cream border border-brand-beige">
+                        <img id="modalImage" src="" class="w-full h-full object-cover object-center" alt="Selected Product">
+                    </div>
+                </div>
+                <div class="space-y-4 flex flex-col justify-between">
+                    <div>
+                        <span id="modalCategory" class="text-xs font-bold tracking-widest uppercase text-brand-gold">Category</span>
+                        <h3 id="modalTitle" class="font-serif text-2xl text-brand-dark mt-1 font-semibold">Product Name</h3>
+                        <p id="modalPrice" class="text-lg font-semibold text-brand-gold mt-2">₦0.00</p>
+                        <p class="text-xs text-brand-muted mt-2">Authentic premium import. Guaranteed luxury quality material and finish.</p>
+                    </div>
+
+                    <form id="checkoutForm" onsubmit="handleProceedToPayment(event)" class="space-y-3 pt-4 border-t border-brand-beige">
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-brand-muted mb-1">Quantity</label>
+                            <input type="number" id="custQty" min="1" value="1" class="w-full px-3 py-2 rounded-lg bg-brand-cream border border-brand-beige text-sm focus:outline-none focus:border-brand-gold">
+                        </div>
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-brand-muted mb-1">Customer Full Name</label>
+                            <input type="text" id="custName" required placeholder="e.g. Chukwuma Adebayo" class="w-full px-3 py-2 rounded-lg bg-brand-cream border border-brand-beige text-sm focus:outline-none focus:border-brand-gold">
+                        </div>
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-brand-muted mb-1">Phone Number</label>
+                            <input type="tel" id="custPhone" required placeholder="e.g. 08012345678" class="w-full px-3 py-2 rounded-lg bg-brand-cream border border-brand-beige text-sm focus:outline-none focus:border-brand-gold">
+                        </div>
+                        <button type="submit" class="w-full py-3 bg-brand-dark text-white rounded-lg text-xs uppercase tracking-widest font-semibold hover:bg-brand-gold transition mt-2">
+                            Continue To Payment
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- STEP 2: Bank Payment & Receipt Upload -->
+            <div id="step2" class="p-6 md:p-8 hidden space-y-6">
+                <div class="text-center border-b border-brand-beige pb-4">
+                    <span class="text-xs font-bold tracking-widest uppercase text-brand-gold">Bank Transfer Checkout</span>
+                    <h3 class="font-serif text-2xl text-brand-dark mt-1">Complete Your Payment</h3>
+                </div>
+
+                <!-- Timer -->
+                <div class="bg-brand-cream p-4 rounded-xl text-center border border-brand-gold/30">
+                    <p class="text-xs uppercase tracking-widest text-brand-muted mb-1">Payment Reserved Timer</p>
+                    <div id="countdownTimer" class="text-2xl font-serif font-bold text-brand-gold">30:00</div>
+                    <p class="text-[10px] text-brand-muted mt-1">Please transfer within 30 minutes to reserve your order.</p>
+                </div>
+
+                <!-- Bank Info Placeholders -->
+                <div class="bg-brand-cream/50 p-4 rounded-xl border border-brand-beige space-y-2 text-sm">
+                    <div class="flex justify-between">
+                        <span class="text-brand-muted">Bank Name:</span>
+                        <span class="font-semibold text-brand-dark">Guaranty Trust Bank (GTBank)</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-brand-muted">Account Name:</span>
+                        <span class="font-semibold text-brand-dark">Luxe By Victory Enterprise</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-brand-muted">Account Number:</span>
+                        <span class="font-mono font-bold text-brand-gold">0123456789</span>
+                    </div>
+                </div>
+
+                <!-- Receipt Upload Form -->
+                <form id="receiptForm" onsubmit="handlePaymentSubmission(event)" class="space-y-4">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-muted mb-2">Upload Payment Receipt / Screenshot</label>
+                        <input type="file" id="receiptFile" accept="image/*" required class="w-full text-xs text-brand-muted file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-xs file:font-semibold file:bg-brand-gold file:text-white hover:file:bg-brand-goldHover cursor-pointer">
+                    </div>
+                    <div class="flex space-x-3 pt-2">
+                        <button type="button" onclick="goToStep(1)" class="w-1/3 py-3 border border-brand-beige text-brand-muted rounded-lg text-xs uppercase tracking-widest font-semibold hover:bg-brand-cream transition">
+                            Back
+                        </button>
+                        <button type="submit" class="w-2/3 py-3 bg-brand-gold text-white rounded-lg text-xs uppercase tracking-widest font-semibold hover:bg-brand-goldHover transition">
+                            Submit Payment
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- STEP 3: Success Confirmation -->
+            <div id="step3" class="p-8 hidden text-center space-y-6">
+                <div class="w-16 h-16 rounded-full bg-green-100 text-green-600 flex items-center justify-center mx-auto text-2xl">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div>
+                    <h3 class="font-serif text-2xl text-brand-dark font-semibold">Payment Receipt Received!</h3>
+                    <p class="text-sm text-brand-muted mt-2">
+                        Thank you for shopping with Luxe By Victory. Our team will verify your transaction and contact you via phone/WhatsApp shortly.
+                    </p>
+                </div>
+                <button onclick="closeModal()" class="px-8 py-3 bg-brand-dark text-white rounded-full text-xs uppercase tracking-widest font-semibold hover:bg-brand-gold transition">
+                    Back To Store
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // Products Array using exact image URLs provided
+        const products = [
+            {
+                id: 1,
+                name: "Marc Jacobs Luxury Handbag",
+                category: "Luxury Bags",
+                price: "[Price Placeholder]",
+                image: "https://i.ibb.co/HsQxLCC/luxury-women-marc-jacobs-used-handbags-p1397630-001.jpg"
+            },
+            {
+                id: 2,
+                name: "Signature Designer Tote",
+                category: "Luxury Bags",
+                price: "[Price Placeholder]",
+                image: "https://i.ibb.co/4RDzby93/36631127-69847269-1000.jpg"
+            },
+            {
+                id: 3,
+                name: "Nimbus Cloud Sport Sneakers",
+                category: "Shoes",
+                price: "[Price Placeholder]",
+                image: "https://i.ibb.co/nMCst7Gw/BALANCE-574-SP-ORT-NIMBUS-CLO-UD-SNEAKERS-MULTICOLOUR-5-SHOPPING-W-EBSITE-NIGERIA-jpg-1-1080x1440.jpg"
+            },
+            {
+                id: 4,
+                name: "Luxury Statement Footwear",
+                category: "Shoes",
+                price: "[Price Placeholder]",
+                image: "https://i.ibb.co/sxv3YLQ/b67ea27-SKEAA00067025-5.jpg"
+            },
+            {
+                id: 5,
+                name: "Children's Designer Apparel",
+                category: "Children's Clothes",
+                price: "[Price Placeholder]",
+                image: "https://i.ibb.co/ymBFJ7sP/s-l1600-14d19363-ec83-4334-b45d-35246edbf870-1000x.jpg"
+            },
+            {
+                id: 6,
+                name: "Exclusive Gold Fashion Piece",
+                category: "Fashion Accessories",
+                price: "[Price Placeholder]",
+                image: "https://i.ibb.co/815s0Tv/Screenshot-20260803-001100-Instagram.jpg"
+            },
+            {
+                id: 7,
+                name: "Boutique Selected Accessory",
+                category: "Fashion Accessories",
+                price: "[Price Placeholder]",
+                image: "https://i.ibb.co/gLJD7RB3/Screenshot-20260803-001057-Instagram.jpg"
+            },
+            {
+                id: 8,
+                name: "Luxe Collection Wear",
+                category: "Luxury Wear",
+                price: "[Price Placeholder]",
+                image: "https://i.ibb.co/LDZ7g2Zd/Screenshot-20260803-001055-Instagram.jpg"
+            },
+            {
+                id: 9,
+                name: "Custom Fashion Accent",
+                category: "Fashion Accessories",
+                price: "[Price Placeholder]",
+                image: "https://i.ibb.co/fYxLBHGt/Screenshot-20260803-001711-Google.jpg"
+            }
+        ];
+
+        let timerInterval = null;
+
+        // Render Product Cards Grid
+        function renderProducts() {
+            const grid = document.getElementById('productGrid');
+            grid.innerHTML = products.map(p => `
+                <div class="bg-white rounded-2xl overflow-hidden border border-brand-beige luxury-shadow hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div class="relative h-80 overflow-hidden bg-brand-cream">
+                        <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest text-brand-dark">
+                            ${p.category}
+                        </span>
+                    </div>
+                    <div class="p-6 space-y-3 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-semibold text-brand-dark">${p.name}</h3>
+                            <p class="text-sm font-semibold text-brand-gold mt-1">${p.price}</p>
+                        </div>
+                        <button onclick="openModal(${p.id})" class="w-full py-3 bg-brand-cream hover:bg-brand-dark hover:text-white text-brand-dark rounded-xl text-xs uppercase tracking-widest font-semibold transition duration-300 border border-brand-beige">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Modal Controls & Steps
+        function openModal(id) {
+            const product = products.find(p => p.id === id);
+            if (!product) return;
+
+            document.getElementById('modalImage').src = product.image;
+            document.getElementById('modalTitle').innerText = product.name;
+            document.getElementById('modalCategory').innerText = product.category;
+            document.getElementById('modalPrice').innerText = product.price;
+
+            goToStep(1);
+            document.getElementById('productModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('productModal').classList.add('hidden');
+            if (timerInterval) clearInterval(timerInterval);
+        }
+
+        function goToStep(stepNum) {
+            document.getElementById('step1').classList.add('hidden');
+            document.getElementById('step2').classList.add('hidden');
+            document.getElementById('step3').classList.add('hidden');
+
+            document.getElementById(`step${stepNum}`).classList.remove('hidden');
+        }
+
+        function handleProceedToPayment(e) {
+            e.preventDefault();
+            goToStep(2);
+            startCountdown(30 * 60); // 30 Minutes
+        }
+
+        function handlePaymentSubmission(e) {
+            e.preventDefault();
+            if (timerInterval) clearInterval(timerInterval);
+            goToStep(3);
+        }
+
+        // 30 Minute Countdown Timer Logic
+        function startCountdown(durationSeconds) {
+            if (timerInterval) clearInterval(timerInterval);
+            let timer = durationSeconds;
+            const display = document.getElementById('countdownTimer');
+
+            timerInterval = setInterval(() => {
+                const minutes = parseInt(timer / 60, 10);
+                const seconds = parseInt(timer % 60, 10);
+
+                const displayMin = minutes < 10 ? "0" + minutes : minutes;
+                const displaySec = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = `${displayMin}:${displaySec}`;
+
+                if (--timer < 0) {
+                    clearInterval(timerInterval);
+                    display.textContent = "00:00 (EXPIRED)";
+                }
+            }, 1000);
+        }
+
+        // Initialize Page
+        document.addEventListener('DOMContentLoaded', () => {
+            renderProducts();
+        });
+    </script>
+</body>
+</html>
